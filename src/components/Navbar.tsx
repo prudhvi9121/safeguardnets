@@ -6,8 +6,8 @@ import { FiMenu, FiX, FiPhone } from "react-icons/fi";
 const navLinks = [
   { label: "Home", to: "/" },
   { label: "About", to: "/about" },
-  { 
-    label: "Services", 
+  {
+    label: "Services",
     to: "#",
     dropdown: [
       { label: "Invisible Grills", to: "/invisible-grills" },
@@ -27,8 +27,8 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-surface/80 backdrop-blur-lg border-b border-border">
       <div className="container flex items-center justify-between h-16">
-        <Link to="/" className="text-xl font-bold text-foreground tracking-tight">
-          SafeGuard<span className="text-primary">Nets</span>
+        <Link to="/" className="flex items-center gap-2 group">
+          <img src="/logo.png" alt="Nithya Safe Guard" className="h-14 w-auto group-hover:scale-105 transition-transform" />
         </Link>
 
         {/* Desktop */}
@@ -71,7 +71,7 @@ const Navbar = () => {
           ))}
           <a
             href="tel:+919876543210"
-            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-2xl bg-primary text-primary-foreground text-sm font-semibold hover:opacity-90 transition-opacity"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-2xl bg-primary-gradient text-primary-foreground text-sm font-semibold hover:brightness-110 transition-all shadow-lg"
           >
             <FiPhone className="w-4 h-4" /> Call Now
           </a>
@@ -105,14 +105,14 @@ const Navbar = () => {
                       </summary>
                       <div className="flex flex-col gap-1 pl-4 pt-2">
                         {l.dropdown.map(drop => (
-                           <Link
-                             key={drop.label}
-                             to={drop.to}
-                             onClick={() => setOpen(false)}
-                             className="text-sm font-medium text-muted-foreground hover:text-primary py-2"
-                           >
-                             {drop.label}
-                           </Link>
+                          <Link
+                            key={drop.label}
+                            to={drop.to}
+                            onClick={() => setOpen(false)}
+                            className="text-sm font-medium text-muted-foreground hover:text-primary py-2"
+                          >
+                            {drop.label}
+                          </Link>
                         ))}
                       </div>
                     </details>
@@ -129,7 +129,7 @@ const Navbar = () => {
               ))}
               <a
                 href="tel:+919876543210"
-                className="inline-flex items-center justify-center gap-2 px-5 py-3 mt-2 rounded-2xl bg-primary text-primary-foreground text-sm font-semibold"
+                className="inline-flex items-center justify-center gap-2 px-5 py-3 mt-2 rounded-2xl bg-primary-gradient text-primary-foreground text-sm font-semibold shadow-lg"
               >
                 <FiPhone className="w-4 h-4" /> Call Now
               </a>

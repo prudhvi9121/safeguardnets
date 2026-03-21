@@ -29,7 +29,7 @@ const LocationPageTemplate = ({ service, city, metaTitle, metaDescription, keywo
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">{content}</p>
             <div className={`flex flex-wrap gap-4 mt-8 ${image ? '' : 'justify-center'}`}>
-              <a href="tel:+919876543210" className="inline-flex items-center gap-2 px-7 py-3.5 rounded-2xl bg-primary text-primary-foreground font-semibold shadow-lg hover:shadow-primary/25 hover:-translate-y-1 transition-all duration-300">
+              <a href="tel:+919876543210" className="inline-flex items-center gap-2 px-7 py-3.5 rounded-2xl bg-primary-gradient text-primary-foreground font-semibold shadow-lg hover:brightness-110 hover:-translate-y-1 transition-all duration-300">
                 <FiPhone className="w-4 h-4" /> Call Now
               </a>
               <Link to="/contact" className="inline-flex items-center gap-2 px-7 py-3.5 rounded-2xl border-2 border-primary text-primary font-semibold hover:bg-primary/5 hover:-translate-y-1 transition-all duration-300">

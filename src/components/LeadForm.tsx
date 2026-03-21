@@ -44,7 +44,7 @@ const LeadForm = () => {
         value={form.name}
         onChange={(e) => setForm({ ...form, name: e.target.value })}
         maxLength={100}
-        className="w-full px-4 py-3 rounded-xl bg-surface-elevated border border-border text-foreground text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/30"
+        className="w-full px-4 py-3 rounded-xl bg-surface-elevated border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all focus:border-primary/50"
       />
       <input
         type="tel"
@@ -52,7 +52,7 @@ const LeadForm = () => {
         value={form.phone}
         onChange={(e) => setForm({ ...form, phone: e.target.value })}
         maxLength={10}
-        className="w-full px-4 py-3 rounded-xl bg-surface-elevated border border-border text-foreground text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/30"
+        className="w-full px-4 py-3 rounded-xl bg-surface-elevated border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all focus:border-primary/50"
       />
       <select
         value={form.service}
@@ -66,7 +66,7 @@ const LeadForm = () => {
       </select>
       <button
         type="submit"
-        className="w-full py-3 rounded-xl bg-primary text-primary-foreground font-semibold text-sm hover:opacity-90 transition-opacity"
+        className="w-full py-3.5 rounded-xl bg-primary-gradient text-primary-foreground font-bold text-sm hover:brightness-110 transition-all shadow-lg active:scale-[0.98]"
       >
         Request Free Quote
       </button>

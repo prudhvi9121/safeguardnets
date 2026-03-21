@@ -30,7 +30,7 @@ const ServiceCard = ({ title, description, icon: Icon, image, to, index }: Props
           className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110" 
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-80" />
-        <div className="absolute bottom-4 left-4 w-12 h-12 rounded-xl bg-white/20 backdrop-blur-md border border-white/30 flex items-center justify-center shadow-lg group-hover:bg-primary/90 group-hover:border-primary transition-colors duration-300">
+        <div className="absolute bottom-4 left-4 w-12 h-12 rounded-xl bg-white/20 backdrop-blur-md border border-white/30 flex items-center justify-center shadow-lg group-hover:bg-primary-gradient group-hover:border-transparent transition-all duration-300">
           <Icon className="w-6 h-6 text-white drop-shadow-md" />
         </div>
       </div>

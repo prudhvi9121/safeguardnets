@@ -17,7 +17,7 @@ const FloatingButtons = () => (
     {/* Sticky Call - Mobile */}
     <a
       href="tel:+919876543210"
-      className="fixed bottom-0 left-0 right-0 z-50 md:hidden flex items-center justify-center gap-2 py-3.5 bg-primary text-primary-foreground font-semibold text-sm"
+      className="fixed bottom-0 left-0 right-0 z-50 md:hidden flex items-center justify-center gap-2 py-3.5 bg-primary-gradient text-primary-foreground font-semibold text-sm shadow-[0_-4px_16px_rgba(0,0,0,0.1)]"
     >
       <FiPhone className="w-4 h-4" /> Call Now – Free Quote
     </a>

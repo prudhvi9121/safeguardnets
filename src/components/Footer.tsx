@@ -15,9 +15,9 @@ const Footer = () => (
     <div className="container">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
         <div>
-          <h3 className="text-lg font-bold text-background mb-4">
-            SafeGuard<span className="text-secondary">Nets</span>
-          </h3>
+          <Link to="/" className="inline-block mb-4">
+            <img src="/logo.png" alt="Nithya Safe Guard" className="h-16 w-auto" />
+          </Link>
           <p className="text-sm leading-relaxed opacity-70">
             Premium invisible grills and safety net solutions for homes and businesses across Hyderabad.
           </p>

@@ -62,7 +62,7 @@ const Index = () => (
           className="max-w-5xl"
         >
           <div className="flex flex-wrap items-center gap-3 mb-6">
-            <span className="inline-block px-4 py-1.5 rounded-full bg-primary/90 backdrop-blur-md text-primary-foreground text-xs font-bold tracking-wider uppercase shadow-lg border border-primary/50">
+            <span className="inline-block px-4 py-1.5 rounded-full bg-primary-gradient backdrop-blur-md text-primary-foreground text-xs font-bold tracking-wider uppercase shadow-lg border border-white/20">
               Trusted by 1000+ Homes
             </span>
             <span className="inline-block px-4 py-1.5 rounded-full bg-black/40 backdrop-blur-md border border-white/20 text-white text-xs font-medium tracking-wider uppercase">
@@ -81,7 +81,7 @@ const Index = () => (
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
             <a
               href="tel:+919876543210"
-              className="inline-flex justify-center items-center gap-2 px-8 py-4 rounded-xl bg-primary text-primary-foreground font-bold text-lg hover:bg-primary/90 hover:-translate-y-1 transition-all shadow-2xl hover:shadow-primary/40 duration-300"
+              className="inline-flex justify-center items-center gap-2 px-8 py-4 rounded-xl bg-primary-gradient text-primary-foreground font-bold text-lg hover:brightness-110 hover:-translate-y-1 transition-all shadow-2xl hover:shadow-primary/40 duration-300"
             >
               <FiPhone className="w-5 h-5" /> Call Now
             </a>
@@ -122,8 +122,8 @@ const Index = () => (
               transition={{ duration: 0.4, delay: i * 0.1 }}
               className="text-center p-6"
             >
-              <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                <t.icon className="w-7 h-7 text-primary" />
+              <div className="w-14 h-14 rounded-2xl bg-accent/20 flex items-center justify-center mx-auto mb-4">
+                <t.icon className="w-7 h-7 text-accent" />
               </div>
               <h3 className="font-semibold text-foreground mb-1">{t.title}</h3>
               <p className="text-sm text-muted-foreground">{t.desc}</p>

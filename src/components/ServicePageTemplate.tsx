@@ -25,13 +25,13 @@ const ServicePageTemplate = ({ title, metaTitle, metaDescription, keywords, head
       <div className="container">
         <div className={`grid gap-12 items-center mb-20 ${image ? 'md:grid-cols-2' : ''}`}>
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className={`max-w-3xl ${image ? '' : 'mx-auto text-center'}`}>
-            <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-xs font-bold mb-5 uppercase tracking-wider">
+            <span className="inline-block px-4 py-1.5 rounded-full bg-accent/10 text-accent text-xs font-bold mb-5 uppercase tracking-wider">
               {title}
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-foreground leading-[1.1] mb-6">{headline}</h1>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">{description}</p>
             <div className={`flex flex-wrap gap-4 mt-8 ${image ? '' : 'justify-center'}`}>
-              <a href="tel:+919876543210" className="inline-flex items-center gap-2 px-7 py-3.5 rounded-2xl bg-primary text-primary-foreground font-semibold shadow-lg hover:shadow-primary/25 hover:-translate-y-1 transition-all duration-300">
+              <a href="tel:+919876543210" className="inline-flex items-center gap-2 px-7 py-3.5 rounded-2xl bg-primary-gradient text-primary-foreground font-semibold shadow-lg hover:brightness-110 hover:-translate-y-1 transition-all duration-300">
                 <FiPhone className="w-4 h-4" /> Call Now
               </a>
               <Link to="/contact" className="inline-flex items-center gap-2 px-7 py-3.5 rounded-2xl border-2 border-primary text-primary font-semibold hover:bg-primary/5 hover:-translate-y-1 transition-all duration-300">
