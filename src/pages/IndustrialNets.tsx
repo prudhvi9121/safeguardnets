@@ -4,9 +4,9 @@ const IndustrialNets = () => (
   <ServicePageTemplate
     image="/services/industry.jpg"
     title="Industrial Safety Nets"
-    metaTitle="Industrial Safety Nets in Hyderabad – SafeGuardNets"
-    metaDescription="Construction and industrial safety nets in Hyderabad. Compliant with safety standards, debris nets, fall protection nets."
-    keywords="industrial safety nets Hyderabad, construction safety nets, fall protection nets"
+    metaTitle="Industrial Safety Nets in Hyderabad, Bangalore & more – Nithya Safe Guard"
+    metaDescription="Construction and industrial safety nets in Hyderabad, Bangalore, Chennai, Kochi, and Vishakhapatnam. Compliant with safety standards."
+    keywords="industrial safety nets Hyderabad, Bangalore, Chennai, Kochi, Vishakhapatnam, construction safety nets"
     headline="Industrial & Construction Safety Nets"
     description="Protect your workforce and comply with safety regulations with our industrial-grade safety nets. Ideal for construction sites, warehouses, and factories."
     features={[

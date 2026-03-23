@@ -70,7 +70,7 @@ const Navbar = () => {
             </div>
           ))}
           <a
-            href="tel:+919876543210"
+            href="tel:+919666440642"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-2xl bg-primary-gradient text-primary-foreground text-sm font-semibold hover:brightness-110 transition-all shadow-lg"
           >
             <FiPhone className="w-4 h-4" /> Call Now
@@ -128,7 +128,7 @@ const Navbar = () => {
                 </div>
               ))}
               <a
-                href="tel:+919876543210"
+                href="tel:+919666440642"
                 className="inline-flex items-center justify-center gap-2 px-5 py-3 mt-2 rounded-2xl bg-primary-gradient text-primary-foreground text-sm font-semibold shadow-lg"
               >
                 <FiPhone className="w-4 h-4" /> Call Now

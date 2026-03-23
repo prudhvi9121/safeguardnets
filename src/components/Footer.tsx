@@ -19,12 +19,12 @@ const Footer = () => (
             <img src="/logo.png" alt="Nithya Safe Guard" className="h-16 w-auto" />
           </Link>
           <p className="text-sm leading-relaxed opacity-70">
-            Premium invisible grills and safety net solutions for homes and businesses across Hyderabad.
+            Premium invisible grills and safety net solutions for homes and businesses across Hyderabad, Bangalore, Chennai, Kochi, and Vishakhapatnam.
           </p>
           <div className="flex gap-3 mt-6">
             <a href="#" className="w-9 h-9 rounded-xl bg-background/10 flex items-center justify-center hover:bg-primary transition-colors"><FaFacebookF /></a>
             <a href="#" className="w-9 h-9 rounded-xl bg-background/10 flex items-center justify-center hover:bg-primary transition-colors"><FaInstagram /></a>
-            <a href="https://wa.me/919876543210" className="w-9 h-9 rounded-xl bg-background/10 flex items-center justify-center hover:bg-primary transition-colors"><FaWhatsapp /></a>
+            <a href="https://wa.me/919666440642" className="w-9 h-9 rounded-xl bg-background/10 flex items-center justify-center hover:bg-primary transition-colors"><FaWhatsapp /></a>
           </div>
         </div>
 
@@ -44,15 +44,15 @@ const Footer = () => (
         <div>
           <h4 className="font-semibold text-background mb-4">Contact</h4>
           <ul className="space-y-3 text-sm">
-            <li className="flex items-center gap-3 opacity-70"><FiPhone className="w-4 h-4 shrink-0" /> +91 98765 43210</li>
-            <li className="flex items-center gap-3 opacity-70"><FiMail className="w-4 h-4 shrink-0" /> info@safeguardnets.in</li>
-            <li className="flex items-start gap-3 opacity-70"><FiMapPin className="w-4 h-4 shrink-0 mt-0.5" /> Hyderabad, Telangana, India</li>
+            <li className="flex items-center gap-3 opacity-70"><FiPhone className="w-4 h-4 shrink-0" /> +91 96664 40642</li>
+            <li className="flex items-center gap-3 opacity-70"><FiMail className="w-4 h-4 shrink-0" /> nithyasafeguard@gmail.com</li>
+            <li className="flex items-start gap-3 opacity-70"><FiMapPin className="w-4 h-4 shrink-0 mt-0.5" /> Hyderabad, Bangalore, Chennai, Kochi, Vishakhapatnam</li>
           </ul>
         </div>
       </div>
 
       <div className="border-t border-background/10 pt-6 text-center text-xs opacity-50">
-        © {new Date().getFullYear()} SafeGuardNets. All rights reserved.
+        © {new Date().getFullYear()} Nithya Safe Guard. All rights reserved.
       </div>
     </div>
   </footer>

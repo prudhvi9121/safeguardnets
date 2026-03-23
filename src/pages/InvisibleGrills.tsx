@@ -4,9 +4,9 @@ const InvisibleGrills = () => (
   <ServicePageTemplate
     image="/services/Invisible.jpg"
     title="Invisible Grills"
-    metaTitle="Invisible Grills Installation in Hyderabad – SafeGuardNets"
-    metaDescription="Get premium invisible grills for balconies and windows in Hyderabad. Stainless steel SS316, 10-year warranty, same-day installation."
-    keywords="invisible grills Hyderabad, balcony invisible grill, window invisible grill, SS316 grill"
+    metaTitle="Invisible Grills Installation in Hyderabad, Bangalore & Chennai – Nithya Safe Guard"
+    metaDescription="Get premium invisible grills for balconies and windows in Hyderabad, Bangalore, Chennai, Kochi, and Vishakhapatnam. Stainless steel SS316, 10-year warranty, same-day installation."
+    keywords="invisible grills Hyderabad, Bangalore, Chennai, Kochi, Vishakhapatnam, balcony invisible grill"
     headline="Invisible Grills for Balconies & Windows"
     description="Our invisible grills provide unobstructed views with maximum safety. Made from SS316 stainless steel cables, they are virtually invisible yet incredibly strong."
     features={[

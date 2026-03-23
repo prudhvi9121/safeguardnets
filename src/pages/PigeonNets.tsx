@@ -4,9 +4,9 @@ const PigeonNets = () => (
   <ServicePageTemplate
     image="/services/pegion.jpg"
     title="Pigeon Nets"
-    metaTitle="Pigeon Nets Installation in Hyderabad – SafeGuardNets"
-    metaDescription="Professional pigeon net installation for balconies and windows in Hyderabad. UV-resistant, durable, and transparent. Free site visit."
-    keywords="pigeon nets Hyderabad, pigeon net for balcony, bird nets near me"
+    metaTitle="Pigeon Nets Installation in Hyderabad, Bangalore & Chennai – Nithya Safe Guard"
+    metaDescription="Professional pigeon net installation for balconies and windows in Hyderabad, Bangalore, Chennai, Kochi, and Vishakhapatnam. UV-resistant, durable, and transparent."
+    keywords="pigeon nets Hyderabad, Bangalore, Chennai, Kochi, Vishakhapatnam, bird nets"
     headline="Pigeon Net Solutions for Your Home"
     description="Keep pigeons and birds away from your living spaces with our high-quality, UV-resistant pigeon nets. Transparent, durable, and professionally installed."
     features={[

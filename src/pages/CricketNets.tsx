@@ -4,9 +4,9 @@ const CricketNets = () => (
   <ServicePageTemplate
     image="/services/sports.jpg"
     title="Cricket & Sports Nets"
-    metaTitle="Cricket Nets & Sports Nets in Hyderabad – SafeGuardNets"
-    metaDescription="High-quality cricket practice nets, sports nets, and boundary nets in Hyderabad. Durable, professional-grade installation."
-    keywords="cricket nets Hyderabad, sports nets, practice nets, boundary nets"
+    metaTitle="Cricket Nets & Sports Nets in Hyderabad, Bangalore & Chennai – Nithya Safe Guard"
+    metaDescription="High-quality cricket practice nets, sports nets, and boundary nets in Hyderabad, Bangalore, Chennai, Kochi, and Vishakhapatnam. Professional installation."
+    keywords="cricket nets Hyderabad, Bangalore, Chennai, Kochi, Vishakhapatnam, sports nets, practice nets"
     headline="Cricket & Sports Nets"
     description="Professional-grade practice and boundary nets for cricket, badminton, football, and other sports. Built to withstand heavy impact and harsh weather."
     features={[

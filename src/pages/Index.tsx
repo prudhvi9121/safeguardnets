@@ -22,7 +22,7 @@ const services = [
 
 const trustPoints = [
   { icon: FiShield, title: "10-Year Warranty", desc: "All installations backed by manufacturer warranty" },
-  { icon: FiAward, title: "1000+ Installations", desc: "Trusted by families across Hyderabad" },
+  { icon: FiAward, title: "1000+ Installations", desc: "Trusted by families across South India" },
   { icon: FiClock, title: "Same-Day Service", desc: "Quick installation with zero hassle" },
   { icon: FiCheckCircle, title: "Premium Materials", desc: "SS316 grade steel & UV-resistant nets" },
 ];
@@ -30,15 +30,15 @@ const trustPoints = [
 const testimonials = [
   { name: "Priya Sharma", text: "Excellent invisible grill installation. The team was professional and finished within 3 hours. Highly recommend!", rating: 5 },
   { name: "Rajesh Kumar", text: "Got pigeon nets installed for our entire apartment. Great quality and fair pricing. Very satisfied.", rating: 5 },
-  { name: "Anitha Reddy", text: "Safety nets for our kids' balcony gave us complete peace of mind. Thank you SafeGuardNets!", rating: 5 },
+  { name: "Anitha Reddy", text: "Safety nets for our kids' balcony gave us complete peace of mind. Thank you Nithya Safe Guard!", rating: 5 },
 ];
 
 const Index = () => (
   <Layout>
     <PageMeta
-      title="SafeGuardNets – Premium Invisible Grills & Safety Nets in Hyderabad"
-      description="Leading provider of invisible grills, pigeon nets, safety nets, cricket nets & industrial nets in Hyderabad. Get a free quote today!"
-      keywords="invisible grills Hyderabad, pigeon nets, safety nets, cricket nets, balcony safety"
+      title="Nithya Safe Guard – Premium Invisible Grills & Safety Nets in Hyderabad, Bangalore & More"
+      description="Leading provider of invisible grills, pigeon nets, safety nets, cricket nets & industrial nets in Hyderabad, Bangalore, Chennai, Kochi, and Vishakhapatnam. Get a free quote today!"
+      keywords="invisible grills Hyderabad, Bangalore, Chennai, Kochi, Vishakhapatnam, pigeon nets, safety nets, balcony safety"
     />
 
     {/* Hero */}
@@ -75,12 +75,12 @@ const Index = () => (
           </h1>
           
           <p className="text-lg md:text-2xl text-gray-200 mb-10 max-w-2xl font-medium drop-shadow-xl leading-relaxed">
-            Unobstructed views with maximum safety. Protect your loved ones with our high-strength, transparent installations across Hyderabad.
+            Unobstructed views with maximum safety. Protect your loved ones with our high-strength, transparent installations across Hyderabad, Bangalore, Chennai, Kochi, and Vishakhapatnam.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
             <a
-              href="tel:+919876543210"
+              href="tel:+919666440642"
               className="inline-flex justify-center items-center gap-2 px-8 py-4 rounded-xl bg-primary-gradient text-primary-foreground font-bold text-lg hover:brightness-110 hover:-translate-y-1 transition-all shadow-2xl hover:shadow-primary/40 duration-300"
             >
               <FiPhone className="w-5 h-5" /> Call Now

@@ -5,18 +5,18 @@ import PageMeta from "@/components/PageMeta";
 import LeadForm from "@/components/LeadForm";
 
 const contactInfo = [
-  { icon: FiPhone, label: "Phone", value: "+91 98765 43210", href: "tel:+919876543210" },
-  { icon: FiMail, label: "Email", value: "info@safeguardnets.in", href: "mailto:info@safeguardnets.in" },
-  { icon: FiMapPin, label: "Location", value: "Hyderabad, Telangana, India" },
-  { icon: FiClock, label: "Working Hours", value: "Mon – Sat, 9 AM – 7 PM" },
+  { icon: FiPhone, label: "Phone", value: "+91 96664 40642", href: "tel:+919666440642" },
+  { icon: FiMail, label: "Email", value: "nithyasafeguard@gmail.com", href: "mailto:nithyasafeguard@gmail.com" },
+  { icon: FiMapPin, label: "Locations", value: "Hyderabad, Bangalore, Chennai, Kochi, Vishakhapatnam" },
+  { icon: FiClock, label: "Working Hours", value: "Everyday, 9 AM – 7 PM" },
 ];
 
 const Contact = () => (
   <Layout>
     <PageMeta
-      title="Contact SafeGuardNets – Get a Free Quote"
-      description="Contact SafeGuardNets for invisible grills, pigeon nets, and safety nets in Hyderabad. Call +91 98765 43210 for a free site visit."
-      keywords="contact safety net provider Hyderabad, free quote invisible grills"
+      title="Contact Nithya Safe Guard – Get a Free Quote"
+      description="Contact Nithya Safe Guard for invisible grills, pigeon nets, and safety nets in Hyderabad, Bangalore, Chennai, Kochi, and Vishakhapatnam. Call +91 96664 40642 for a free site visit."
+      keywords="contact safety net provider Hyderabad, Bangalore, Chennai, Kochi, Vishakhapatnam, free quote invisible grills"
     />
 
     <section className="py-20">

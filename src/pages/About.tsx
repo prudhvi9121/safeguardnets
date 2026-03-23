@@ -21,17 +21,17 @@ const values = [
 const About = () => (
   <Layout>
     <PageMeta
-      title="About SafeGuardNets – Your Trusted Safety Net Provider"
-      description="Learn about SafeGuardNets, Hyderabad's leading provider of invisible grills and safety nets with 8+ years of experience and 3000+ installations."
-      keywords="about SafeGuardNets, safety net company Hyderabad"
+      title="About Nithya Safe Guard – Your Trusted Safety Net Provider"
+      description="Learn about Nithya Safe Guard, a leading provider of invisible grills and safety nets in Hyderabad, Bangalore, Chennai, Kochi, and Vishakhapatnam with 8+ years of experience."
+      keywords="about Nithya Safe Guard, safety net company Hyderabad, Bangalore, Chennai"
     />
 
     <section className="py-20">
       <div className="container">
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} className="max-w-3xl mx-auto text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-extrabold text-foreground mb-6">About SafeGuardNets</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold text-foreground mb-6">About Nithya Safe Guard</h1>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            We are Hyderabad's most trusted provider of invisible grills, pigeon nets, safety nets, and sports nets. With over 8 years of experience and 3000+ successful installations, we bring safety and aesthetics together.
+            We are a highly trusted provider of invisible grills, pigeon nets, safety nets, and sports nets across Hyderabad, Bangalore, Chennai, Kochi, and Vishakhapatnam. With over 8 years of experience and 1000+ successful installations, we bring safety and aesthetics together.
           </p>
         </motion.div>
 

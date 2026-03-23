@@ -4,9 +4,9 @@ const SafetyNets = () => (
   <ServicePageTemplate
     image="/services/pets.jpg"
     title="Safety Nets"
-    metaTitle="Child & Pet Safety Nets in Hyderabad – SafeGuardNets"
-    metaDescription="Protect your children and pets with premium safety nets for balconies, staircases, and terraces in Hyderabad. Strong, durable, and safe."
-    keywords="safety nets Hyderabad, child safety net balcony, pet safety net"
+    metaTitle="Child & Pet Safety Nets in Hyderabad, Bangalore & Chennai – Nithya Safe Guard"
+    metaDescription="Protect your children and pets with premium safety nets for balconies and staircases in Hyderabad, Bangalore, Chennai, Kochi, and Vishakhapatnam. Strong and durable."
+    keywords="safety nets Hyderabad, Bangalore, Chennai, Kochi, Vishakhapatnam, child safety net"
     headline="Safety Nets for Kids & Pets"
     description="Give your family complete peace of mind with our child and pet safety nets. Designed for balconies, terraces, staircases, and open areas."
     features={[
