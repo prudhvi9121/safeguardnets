@@ -2,7 +2,7 @@ import ServicePageTemplate from "@/components/ServicePageTemplate";
 
 const IndustrialNets = () => (
   <ServicePageTemplate
-    image="/services/industry.jpg"
+    image="/services/industry.webp"
     title="Industrial Safety Nets"
     metaTitle="Industrial Safety Nets in Hyderabad, Bangalore & more – Nithya Safe Guard"
     metaDescription="Construction and industrial safety nets in Hyderabad, Bangalore, Chennai, Kochi, and Vishakhapatnam. Compliant with safety standards."

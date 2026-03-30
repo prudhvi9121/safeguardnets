@@ -2,7 +2,7 @@ import ServicePageTemplate from "@/components/ServicePageTemplate";
 
 const SafetyNets = () => (
   <ServicePageTemplate
-    image="/services/pets.jpg"
+    image="/services/pets.webp"
     title="Safety Nets"
     metaTitle="Child & Pet Safety Nets in Hyderabad, Bangalore & Chennai – Nithya Safe Guard"
     metaDescription="Protect your children and pets with premium safety nets for balconies and staircases in Hyderabad, Bangalore, Chennai, Kochi, and Vishakhapatnam. Strong and durable."

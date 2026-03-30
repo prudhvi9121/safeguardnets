@@ -16,7 +16,13 @@ const LeadForm = () => {
   const [form, setForm] = useState({ name: "", phone: "", service: "" });
   const [captcha, setCaptcha] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
+  // reCAPTCHA is deferred until the user interacts with the form
+  const [showCaptcha, setShowCaptcha] = useState(false);
   const recaptchaRef = useRef<ReCAPTCHA>(null);
+
+  const handleFocus = () => {
+    if (!showCaptcha) setShowCaptcha(true);
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -85,6 +91,7 @@ const LeadForm = () => {
         placeholder="Your Name"
         value={form.name}
         onChange={(e) => setForm({ ...form, name: e.target.value })}
+        onFocus={handleFocus}
         maxLength={100}
         className="w-full px-4 py-3 rounded-xl bg-surface-elevated border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all focus:border-primary/50"
       />
@@ -94,6 +101,7 @@ const LeadForm = () => {
         placeholder="Phone Number"
         value={form.phone}
         onChange={(e) => setForm({ ...form, phone: e.target.value })}
+        onFocus={handleFocus}
         maxLength={10}
         className="w-full px-4 py-3 rounded-xl bg-surface-elevated border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all focus:border-primary/50"
       />
@@ -101,6 +109,7 @@ const LeadForm = () => {
       <select
         value={form.service}
         onChange={(e) => setForm({ ...form, service: e.target.value })}
+        onFocus={handleFocus}
         className="w-full px-4 py-3 rounded-xl bg-surface-elevated border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary/30"
       >
         <option value="">Select Service</option>
@@ -111,12 +120,14 @@ const LeadForm = () => {
         ))}
       </select>
 
-      {/* ✅ CAPTCHA */}
-      <ReCAPTCHA
-        ref={recaptchaRef}
-        sitekey={import.meta.env.VITE_RECAPTCHA_SITE_KEY}
-        onChange={(value) => setCaptcha(value)}
-      />
+      {/* reCAPTCHA only loads after user interacts with the form */}
+      {showCaptcha && (
+        <ReCAPTCHA
+          ref={recaptchaRef}
+          sitekey={import.meta.env.VITE_RECAPTCHA_SITE_KEY}
+          onChange={(value) => setCaptcha(value)}
+        />
+      )}
 
       <button
         type="submit"

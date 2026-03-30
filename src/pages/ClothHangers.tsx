@@ -2,7 +2,7 @@ import ServicePageTemplate from "@/components/ServicePageTemplate";
 
 const ClothHangers = () => (
   <ServicePageTemplate
-    image="/services/clothes.jpg"
+    image="/services/clothes.webp"
     title="Cloth Hangers"
     metaTitle="Ceiling Mounted Cloth Drying Hangers in Hyderabad & Bangalore – Nithya Safe Guard"
     metaDescription="Premium ceiling-mounted cloth drying hangers and systems for balconies. Space-saving, durable, and easy to use. Free installation in Hyderabad, Bangalore, and Chennai."

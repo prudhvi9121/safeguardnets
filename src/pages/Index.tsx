@@ -12,12 +12,12 @@ import ServiceCard from "@/components/ServiceCard";
 import LeadForm from "@/components/LeadForm";
 
 const services = [
-  { title: "Invisible Grills", description: "Premium stainless steel grills for balconies & windows. Unobstructed views with maximum safety.", icon: MdBalcony, image: "/services/Invisible.jpg", to: "/invisible-grills" },
-  { title: "Pigeon Nets", description: "Keep pigeons away from your balcony and windows. Durable, transparent, and long-lasting.", icon: FaDove, image: "/services/pegion.jpg", to: "/pigeon-nets" },
-  { title: "Safety Nets", description: "Child & pet safety nets for balconies, staircases, and terraces. Peace of mind guaranteed.", icon: FiShield, image: "/services/pets.jpg", to: "/safety-nets" },
-  { title: "Cloth Hangers", description: "Space-saving ceiling-mounted cloth drying systems for modern apartments.", icon: TbHanger, image: "/services/clothes.jpg", to: "/cloth-hangers" },
-  { title: "Cricket / Sports Nets", description: "High-quality practice nets for cricket, badminton, and other sports facilities.", icon: GiSoccerBall, image: "/services/sports.jpg", to: "/cricket-nets" },
-  { title: "Industrial Safety Nets", description: "Construction and industrial safety nets meeting all compliance standards.", icon: GiFactory, image: "/services/industry.jpg", to: "/industrial-nets" },
+  { title: "Invisible Grills", description: "Premium stainless steel grills for balconies & windows. Unobstructed views with maximum safety.", icon: MdBalcony, image: "/services/Invisible.webp", to: "/invisible-grills" },
+  { title: "Pigeon Nets", description: "Keep pigeons away from your balcony and windows. Durable, transparent, and long-lasting.", icon: FaDove, image: "/services/pegion.webp", to: "/pigeon-nets" },
+  { title: "Safety Nets", description: "Child & pet safety nets for balconies, staircases, and terraces. Peace of mind guaranteed.", icon: FiShield, image: "/services/pets.webp", to: "/safety-nets" },
+  { title: "Cloth Hangers", description: "Space-saving ceiling-mounted cloth drying systems for modern apartments.", icon: TbHanger, image: "/services/clothes.webp", to: "/cloth-hangers" },
+  { title: "Cricket / Sports Nets", description: "High-quality practice nets for cricket, badminton, and other sports facilities.", icon: GiSoccerBall, image: "/services/sports.webp", to: "/cricket-nets" },
+  { title: "Industrial Safety Nets", description: "Construction and industrial safety nets meeting all compliance standards.", icon: GiFactory, image: "/services/industry.webp", to: "/industrial-nets" },
 ];
 
 const trustPoints = [
@@ -87,11 +87,17 @@ const Index = () => (
     <section className="relative min-h-[90vh] flex flex-col justify-end overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src="/hero1.png" 
-          alt="Premium Balcony Invisible Grills" 
+        <img
+          src="/hero1.webp"
+          alt="Premium Balcony Invisible Grills"
+          fetchPriority="high"
+          loading="eager"
+          decoding="auto"
+          width={1920}
+          height={1080}
           className="w-full h-full object-cover object-center"
         />
+
         {/* Gradient overlays to ensure text readability */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/20 to-black/90" />
       </div>
@@ -111,15 +117,15 @@ const Index = () => (
               10-Year Warranty
             </span>
           </div>
-          
+
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[5rem] font-extrabold text-white leading-[1.1] tracking-tight mb-6 drop-shadow-2xl">
-            Premium Invisible Grill <span className="text-white/90">&</span> <br className="hidden md:block"/> Safety Net Solutions in <br className="hidden md:block"/> Hyderabad & Bangalore
+            Premium Invisible Grill <span className="text-white/90">&</span> <br className="hidden md:block" /> Safety Net Solutions in <br className="hidden md:block" /> Hyderabad & Bangalore
           </h1>
-          
+
           <p className="text-lg md:text-2xl text-gray-200 mb-10 max-w-2xl font-medium drop-shadow-xl leading-relaxed">
             Unobstructed views with maximum safety. Protect your loved ones with our high-strength, transparent installations across Hyderabad, Bangalore, Chennai, Kochi, and Vishakhapatnam.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
             <a
               href="tel:+919666440642"

@@ -2,7 +2,7 @@ import ServicePageTemplate from "@/components/ServicePageTemplate";
 
 const PigeonNets = () => (
   <ServicePageTemplate
-    image="/services/pegion.jpg"
+    image="/services/pegion.webp"
     title="Pigeon Nets"
     metaTitle="Pigeon Nets Installation in Hyderabad, Bangalore & Chennai – Nithya Safe Guard"
     metaDescription="Professional pigeon net installation for balconies and windows in Hyderabad, Bangalore, Chennai, Kochi, and Vishakhapatnam. UV-resistant, durable, and transparent."

@@ -18,4 +18,20 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  build: {
+    minify: "esbuild",
+    cssMinify: true,
+    chunkSizeWarningLimit: 400,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          "react-vendor": ["react", "react-dom", "react-router-dom"],
+          "ui-vendor": ["framer-motion", "@tanstack/react-query", "react-helmet-async"],
+          "icons": ["react-icons"],
+          "form-vendor": ["react-google-recaptcha", "react-hook-form", "zod", "@hookform/resolvers"],
+        },
+      },
+    },
+  },
 }));
+

@@ -27,6 +27,10 @@ const ServiceCard = ({ title, description, icon: Icon, image, to, index }: Props
         <img 
           src={image} 
           alt={title} 
+          loading="lazy"
+          decoding="async"
+          width={480}
+          height={224}
           className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110" 
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-80" />

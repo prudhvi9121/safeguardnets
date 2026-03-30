@@ -2,7 +2,7 @@ import LocationPageTemplate from "@/components/LocationPageTemplate";
 
 const PigeonNetsHyderabad = () => (
   <LocationPageTemplate
-    image="/services/pegion.jpg"
+    image="/services/pegion.webp"
     service="Pigeon Nets"
     city="Hyderabad"
     metaTitle="Pigeon Nets in Hyderabad – Best Bird Net Installation | Nithya Safe Guard"

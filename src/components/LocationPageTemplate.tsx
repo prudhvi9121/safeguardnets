@@ -41,7 +41,16 @@ const LocationPageTemplate = ({ service, city, metaTitle, metaDescription, keywo
           {image && (
             <motion.div initial={{ opacity: 0, scale: 0.95, x: 20 }} animate={{ opacity: 1, scale: 1, x: 0 }} transition={{ delay: 0.1, duration: 0.5 }} className="relative h-full w-full">
               <div className="relative rounded-[2rem] overflow-hidden aspect-square md:aspect-[4/3] shadow-2xl">
-                <img src={image} alt={`${service} in ${city}`} className="w-full h-full object-cover" />
+                <img
+                  src={image}
+                  alt={`${service} in ${city}`}
+                  fetchPriority="high"
+                  loading="eager"
+                  decoding="auto"
+                  width={720}
+                  height={540}
+                  className="w-full h-full object-cover"
+                />
                 <div className="absolute inset-0 bg-gradient-to-tr from-black/20 via-transparent to-transparent" />
               </div>
             </motion.div>

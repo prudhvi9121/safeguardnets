@@ -2,7 +2,7 @@ import ServicePageTemplate from "@/components/ServicePageTemplate";
 
 const InvisibleGrills = () => (
   <ServicePageTemplate
-    image="/services/Invisible.jpg"
+    image="/services/Invisible.webp"
     title="Invisible Grills"
     metaTitle="Invisible Grills Installation in Hyderabad, Bangalore & Chennai – Nithya Safe Guard"
     metaDescription="Get premium invisible grills for balconies and windows in Hyderabad, Bangalore, Chennai, Kochi, and Vishakhapatnam. Stainless steel SS316, 10-year warranty, same-day installation."

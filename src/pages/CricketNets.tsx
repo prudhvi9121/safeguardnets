@@ -2,7 +2,7 @@ import ServicePageTemplate from "@/components/ServicePageTemplate";
 
 const CricketNets = () => (
   <ServicePageTemplate
-    image="/services/sports.jpg"
+    image="/services/sports.webp"
     title="Cricket & Sports Nets"
     metaTitle="Cricket Nets & Sports Nets in Hyderabad, Bangalore & Chennai – Nithya Safe Guard"
     metaDescription="High-quality cricket practice nets, sports nets, and boundary nets in Hyderabad, Bangalore, Chennai, Kochi, and Vishakhapatnam. Professional installation."

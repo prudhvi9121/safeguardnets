@@ -2,7 +2,7 @@ import LocationPageTemplate from "@/components/LocationPageTemplate";
 
 const InvisibleGrillsHyderabad = () => (
   <LocationPageTemplate
-    image="/services/Invisible.jpg"
+    image="/services/Invisible.webp"
     service="Invisible Grills"
     city="Hyderabad"
     metaTitle="Invisible Grills in Hyderabad – Best Installation Service | Nithya Safe Guard"
