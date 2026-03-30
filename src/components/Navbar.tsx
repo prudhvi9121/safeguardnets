@@ -13,7 +13,7 @@ const navLinks = [
       { label: "Invisible Grills", to: "/invisible-grills" },
       { label: "Pigeon Nets", to: "/pigeon-nets" },
       { label: "Safety Nets", to: "/safety-nets" },
-      { label: "Cloth Hangers", to: "/invisible-grills" },
+      { label: "Cloth Hangers", to: "/cloth-hangers" },
       { label: "Cricket Nets", to: "/cricket-nets" },
       { label: "Industrial Nets", to: "/industrial-nets" },
     ]

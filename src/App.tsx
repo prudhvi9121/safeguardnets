@@ -12,6 +12,7 @@ import PigeonNets from "./pages/PigeonNets";
 import SafetyNets from "./pages/SafetyNets";
 import CricketNets from "./pages/CricketNets";
 import IndustrialNets from "./pages/IndustrialNets";
+import ClothHangers from "./pages/ClothHangers";
 import InvisibleGrillsHyderabad from "./pages/InvisibleGrillsHyderabad";
 import PigeonNetsHyderabad from "./pages/PigeonNetsHyderabad";
 import NotFound from "./pages/NotFound";
@@ -34,6 +35,7 @@ const App = () => (
             <Route path="/safety-nets" element={<SafetyNets />} />
             <Route path="/cricket-nets" element={<CricketNets />} />
             <Route path="/industrial-nets" element={<IndustrialNets />} />
+            <Route path="/cloth-hangers" element={<ClothHangers />} />
             <Route path="/invisible-grills-hyderabad" element={<InvisibleGrillsHyderabad />} />
             <Route path="/pigeon-nets-hyderabad" element={<PigeonNetsHyderabad />} />
             <Route path="*" element={<NotFound />} />

@@ -15,7 +15,7 @@ const services = [
   { title: "Invisible Grills", description: "Premium stainless steel grills for balconies & windows. Unobstructed views with maximum safety.", icon: MdBalcony, image: "/services/Invisible.jpg", to: "/invisible-grills" },
   { title: "Pigeon Nets", description: "Keep pigeons away from your balcony and windows. Durable, transparent, and long-lasting.", icon: FaDove, image: "/services/pegion.jpg", to: "/pigeon-nets" },
   { title: "Safety Nets", description: "Child & pet safety nets for balconies, staircases, and terraces. Peace of mind guaranteed.", icon: FiShield, image: "/services/pets.jpg", to: "/safety-nets" },
-  { title: "Cloth Hangers", description: "Space-saving ceiling-mounted cloth drying systems for modern apartments.", icon: TbHanger, image: "/services/clothes.jpg", to: "/invisible-grills" },
+  { title: "Cloth Hangers", description: "Space-saving ceiling-mounted cloth drying systems for modern apartments.", icon: TbHanger, image: "/services/clothes.jpg", to: "/cloth-hangers" },
   { title: "Cricket / Sports Nets", description: "High-quality practice nets for cricket, badminton, and other sports facilities.", icon: GiSoccerBall, image: "/services/sports.jpg", to: "/cricket-nets" },
   { title: "Industrial Safety Nets", description: "Construction and industrial safety nets meeting all compliance standards.", icon: GiFactory, image: "/services/industry.jpg", to: "/industrial-nets" },
 ];
@@ -36,10 +36,52 @@ const testimonials = [
 const Index = () => (
   <Layout>
     <PageMeta
-      title="Nithya Safe Guard – Premium Invisible Grills & Safety Nets in Hyderabad, Bangalore & More"
-      description="Leading provider of invisible grills, pigeon nets, safety nets, cricket nets & industrial nets in Hyderabad, Bangalore, Chennai, Kochi, and Vishakhapatnam. Get a free quote today!"
+      title="Nithya Safe Guard | Invisible Grills & Safety Nets in Hyderabad, Bangalore, Chennai, Kochi & Vizag"
+      description="Nithya Safe Guard provides premium invisible grills, balcony safety nets, pigeon nets and cricket nets in Hyderabad, Bangalore, Chennai, Kochi and Vizag. Get expert installation, durable materials and a free site visit today.2"
       keywords="invisible grills Hyderabad, Bangalore, Chennai, Kochi, Vishakhapatnam, pigeon nets, safety nets, balcony safety"
     />
+
+    {/* Structured Data */}
+    <script type="application/ld+json">
+      {JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Nithya Safe Guard",
+        "image": "https://www.nithyasafeguard.in/logo.png",
+        "@id": "https://www.nithyasafeguard.in",
+        "url": "https://www.nithyasafeguard.in",
+        "telephone": "+919666440642",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Hyderabad",
+          "addressRegion": "Telangana",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 17.3850,
+          "longitude": 78.4867
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        },
+        "sameAs": [
+          "https://www.facebook.com/nithyasafeguard",
+          "https://www.instagram.com/nithyasafeguard"
+        ]
+      })}
+    </script>
 
     {/* Hero */}
     <section className="relative min-h-[90vh] flex flex-col justify-end overflow-hidden">
@@ -71,7 +113,7 @@ const Index = () => (
           </div>
           
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[5rem] font-extrabold text-white leading-[1.1] tracking-tight mb-6 drop-shadow-2xl">
-            Premium Invisible Grill <br className="hidden md:block"/> <span className="text-white/90">&</span> Safety Net Solutions
+            Premium Invisible Grill <span className="text-white/90">&</span> <br className="hidden md:block"/> Safety Net Solutions in <br className="hidden md:block"/> Hyderabad & Bangalore
           </h1>
           
           <p className="text-lg md:text-2xl text-gray-200 mb-10 max-w-2xl font-medium drop-shadow-xl leading-relaxed">

@@ -8,6 +8,7 @@ const services = [
   { label: "Safety Nets", to: "/safety-nets" },
   { label: "Cricket Nets", to: "/cricket-nets" },
   { label: "Industrial Nets", to: "/industrial-nets" },
+  { label: "Cloth Hangers", to: "/cloth-hangers" },
 ];
 
 const Footer = () => (
@@ -22,8 +23,8 @@ const Footer = () => (
             Premium invisible grills and safety net solutions for homes and businesses across Hyderabad, Bangalore, Chennai, Kochi, and Vishakhapatnam.
           </p>
           <div className="flex gap-3 mt-6">
-            <a href="#" className="w-9 h-9 rounded-xl bg-background/10 flex items-center justify-center hover:bg-primary transition-colors"><FaFacebookF /></a>
-            <a href="#" className="w-9 h-9 rounded-xl bg-background/10 flex items-center justify-center hover:bg-primary transition-colors"><FaInstagram /></a>
+            <a href="https://www.facebook.com/nithyasafeguard" className="w-9 h-9 rounded-xl bg-background/10 flex items-center justify-center hover:bg-primary transition-colors"><FaFacebookF /></a>
+            <a href="https://www.instagram.com/nithyasafeguard" className="w-9 h-9 rounded-xl bg-background/10 flex items-center justify-center hover:bg-primary transition-colors"><FaInstagram /></a>
             <a href="https://wa.me/919666440642" className="w-9 h-9 rounded-xl bg-background/10 flex items-center justify-center hover:bg-primary transition-colors"><FaWhatsapp /></a>
           </div>
         </div>
